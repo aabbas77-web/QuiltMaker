@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="QuiltMaker.exe"/>
+    <OBJFILES value="QuiltMaker.obj Main.obj quilt_Messages.obj api_VecApi.obj 
+      quilt_Strings.obj About.obj"/>
+    <RESFILES value="QuiltMaker.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm About.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dsnap.lib inet.lib inetdb.lib webdsnap.lib bdertl.lib qrpt.lib vcldb.lib 
+      dbrtl.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib dbrtl.lib vcldb.lib qrpt.lib bdertl.lib 
+      webdsnap.lib inetdb.lib inet.lib dsnap.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi vcldb.bpi adortl.bpi 
+      ibsmp.bpi bdertl.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi 
+      dss.bpi teeqr.bpi ibxpress.bpi dsnap.bpi vclie.bpi inetdb.bpi inet.bpi 
+      nmfast.bpi webdsnap.bpi bcbie.bpi dclocx.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="QuiltMaker.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -D_DEBUG -I$(BCB)\include -I$(BCB)\include\vcl -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~2\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 
+      -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="QuiltMaker.cpp" FORMNAME="" UNITNAME="QuiltMaker" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="QuiltMaker.res" FORMNAME="" UNITNAME="QuiltMaker" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="FormMain" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quilt_Messages.cpp" FORMNAME="" UNITNAME="quilt_Messages" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="api_VecApi.cpp" FORMNAME="" UNITNAME="api_VecApi" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quilt_Strings.cpp" FORMNAME="" UNITNAME="quilt_Strings" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="About.cpp" FORMNAME="FormAbout" UNITNAME="About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=10241
+CodePage=1256
+
+[Version Info Keys]
+CompanyName=AliSoft
+FileDescription=AliSoft QuiltMaker V1.0
+FileVersion=1.0.0.0
+InternalName=QuiltMaker V1.0
+LegalCopyright=???
+LegalTrademarks=! ! !
+OriginalFilename=QuiltMaker.exe
+ProductName=QuiltMaker
+ProductVersion=1.0.0.0
+Comments=Generate And Process Quilting Files (*.dat)
+Programmed By=Ali Abbas
+E-Mail=a.abbas@netcourrier.com
+Mobile=+963 93 883674
+Address=Syria - Damascus - Barzeh
+Compatibility=Win9x,WinMe,WinNTx,Win2000,WinXP Compatible
+
+[Excluded Packages]
+c:\program files (x86)\borland\cbuilder6\Bin\dclite50.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=_DEBUG
+Item1=_DEMO_;_DEBUG
+Item2=_DEMO_
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
