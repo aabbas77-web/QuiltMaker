@@ -7,4 +7,4 @@
 **Create and Edit Quilt Desgin**
 
 
-![image alt](https://github.com/aabbas77-web/Halftone-Maker/releases/download/FirstRelease/GIRL01.BMP)<br/>
+![image alt](https://github.com/aabbas77-web/QuiltMaker/releases/download/FirstRelease/QuiltMaker.png)<br/>
